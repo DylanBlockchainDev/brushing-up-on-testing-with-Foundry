@@ -39,9 +39,9 @@ contract Handler is CommonBase, StdCheats, StdUtils {
         weth.withdraw(amount);
     }
 
-    function fail() public { // leave unmarked with pure
-        revert("failed");
-    }
+    // function fail() public { // leave unmarked with pure
+    //     revert("failed");
+    // }
 }
 
 contract WEHT_Handler_Base_Invariant_Test is Test {
